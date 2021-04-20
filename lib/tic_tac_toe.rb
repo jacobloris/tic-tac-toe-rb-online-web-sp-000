@@ -1,4 +1,14 @@
-WIN_COMBINATIONS = [[0,1,2], [3,4,5], [6,7,8], [0,3,6], [1,4,7], [2,5,8], [0,4,8], [2,4,6]]
+WIN_COMBINATIONS = 
+[
+[0,1,2], #Top Row
+[3,4,5], #Middle Row 
+[6,7,8], #Bottom Row
+[0,3,6], #First Vertical Row  
+[1,4,7], #Second Vertical Row 
+[2,5,8], #Third Vertical Row
+[0,4,8], #Diagonal Left 
+[2,4,6] #Diagonal Right
+]
 
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
